@@ -1,0 +1,11 @@
+Commands:
+
+ghdl -a archer_pkg.vhd
+
+ghdl -a add4.vhd alu.vhd archer_rv32i_pipelined.vhd archer_rv32i_pipelined_tb.vhd branch_cmp.vhd control.vhd csr.vhd immgen.vhd lmb.vhd mux2to1.vhd pc.vhd regfile.vhd rom.vhd sram.vhd branch_adder.vhd IF_ID.vhd ID_EX.vhd EX_MEM.vhd MEM_WB.vhd M_alu.vhd M_alu_bus.vhd F_Unit.vhd H_Unit.vhd
+
+ghdl -e archer_rv32i_pipelined_tb
+
+ghdl -r archer_rv32i_pipelined_tb --wave=g.ghw
+
+gtkwave g.ghw
