@@ -1,2 +1,4 @@
 # Extending-Single-Cycle-RV32I-Processor-Core
-VHDL-based project that aims at expanding a Single Cycle RV32I processor core to support multiple features such as CSRs and M-extension. Pipelining was also done along with hardware support for data forwarding and hazard detection.
+* The first file **archer-main** includes the original Single Cycle RV32I processor core.
+* The second file **rv32i_pipelined** includes the modified code that supports multiple features, mainly pipelining, CSR support, M extension, forwarding, and hazard detection.
+* The report includes all details of changes and additions that were made.
